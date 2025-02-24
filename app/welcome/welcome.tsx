@@ -182,7 +182,7 @@ const Comments = () => {
         <h2 className=" text-4xl uppercase family-oswald font-semibold mb-6">
           Casos de éxito y testimonios
         </h2>
-        <p className="family-lato  text-2xl font-[300]">
+        <p className="family-lato  text-2xl ">
           Conoce la historia de algunos de nuestros socios
         </p>
 
@@ -220,7 +220,7 @@ const Model = () => {
         <h2 className=" text-4xl uppercase family-oswald font-semibold mb-6">
           Un modelo que transforma el potencial en potencia
         </h2>
-        <p className="family-lato  text-2xl font-[300]">
+        <p className="family-lato  text-2xl ">
           Una serie de protocolos de entrenamiento prácticos , sostenibles y
           escalables, que te dan el poder de optimizar tu salud, bienestar y
           rendimiento.
@@ -242,7 +242,7 @@ const Programas = () => {
           Te entrenamos para desarrollar el súper poder del siglo XXI: Alto
           rendimeinto sostenible
         </h2>
-        <p className="family-lato  text-2xl font-[300]">
+        <p className=" text-2xl family-lato ">
           Rendir tu máxima potencia de forma consistente, cuidando tu salud y
           bienestra, es el super poder que desarrollamos en nuestros programas
           basados en el deporte profesional. Conoce nuestros programas de
@@ -302,12 +302,12 @@ const Card = ({
 
 const Comparation = () => {
   return (
-    <section className="bg-grass py-20 relative overflow-hidden">
+    <section className="bg-grass py-40 relative overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-white text-4xl uppercase family-oswald font-semibold mb-4">
           ¿También sientes que el mundo avanza más rápido que tú?
         </h2>
-        <p className="family-lato text-white/70 text-2xl font-[500]">
+        <p className="family-lato text-white/70 text-2xl font-[300]">
           No estás solo, el 70% de las personas económicamente activas en México
           se sienten exactamente igual atravesando una crisis de burnout porque
           su rendimiento no crece a la velocidad del mundo hiperproductivo.
@@ -381,7 +381,7 @@ const Comparation = () => {
 const Companies = () => {
   return (
     <section className="pb-10">
-      <p className="max-w-7xl mx-auto text-xl mb-6">
+      <p className="max-w-7xl family-lato mx-auto text-xl mb-6 text-center">
         +12 años entrenando atletas y equipos deportivos profesionales con
         nuestro <strong>modelo de protocolos de optimización</strong>y hace 10
         años trasladamos ese entrenamiento a corporativos
